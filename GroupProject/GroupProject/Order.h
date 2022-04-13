@@ -14,9 +14,10 @@ public:
 	Order(string, double, int);
 	bool checkTitle(string name);
 	double CalculateCost();
-	void setNumber(int);
+	void setNumber(int number);
 	string getTitle();
 	double getPrice();
+	int getNumber();
 	bool operator==(const Order&) const;
 	bool operator!=(const Order&) const;
 };
