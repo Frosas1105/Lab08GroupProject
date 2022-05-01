@@ -1,6 +1,16 @@
 #include "Order.h"
 
-Order::Order() {
+ostream& operator<<(ostream& out, const Order& order)
+{
+	out << fixed << showpoint << setprecision(2);
+	out << "Title: " << setw(15) << order.bookTitle << endl;
+	out << "Unit Price: $" << setw(15) << order.unitPrice << endl;
+	out << "Number: " << setw(15) << order.number << endl;
+}
+
+
+Order::Order() 
+{
 	bookTitle = "";
 	unitPrice = 0.0;
 	number = 0;
@@ -45,26 +55,18 @@ int Order::getNumber()
 	return number;
 }
 
-bool Order::operator==(const Order& orderTwo) const 
+bool Order::operator==(const Order& order) const 
 {
-	if (bookTitle == orderTwo.bookTitle &&
-		unitPrice == orderTwo.unitPrice)
-		return true;
-	else
-	{
-		return false;
-	}
+	return (bookTitle == order.bookTitle &&
+		unitPrice == order.unitPrice && 
+		number == order.number);
 }
 
-bool Order::operator!=(const Order& orderTwo) const
+bool Order::operator!=(const Order& order) const
 {
-	if (bookTitle != orderTwo.bookTitle &&
-		unitPrice != orderTwo.unitPrice)
-		return true;
-	else
-	{
-		return false;
-	}
+	return (bookTitle != order.bookTitle || 
+		unitPrice == order.unitPrice || 
+		number == order.number);
 }
 
 
