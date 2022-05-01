@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// Date: 5/01/2022
+// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
+// File: Customer.h
+// Purpose: Declaring all data members and member functions for the class Customer.
+////////////////////////////////////////////////////////////////////
 #pragma once
 #include "OrderList.h"
 
