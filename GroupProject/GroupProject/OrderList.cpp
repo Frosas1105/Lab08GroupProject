@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// Date: 5/1/2022 
+// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
+// File: OrderList.cpp
+// Purpose: File containing the function definitions for the OrderList Class. 
+////////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <string>
 #include "linkedList.h"
@@ -6,9 +12,9 @@
 
 using namespace std;
 
-ostream& operator<<(ostream& OS, const OrderList& orders) {
+ostream& operator<<(ostream& out, const OrderList& orders) {
     orders.print();
-        return os;
+        return out;
 
 }
 
