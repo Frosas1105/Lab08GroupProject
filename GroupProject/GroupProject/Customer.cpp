@@ -36,4 +36,39 @@ void Customer::UpdateOrders(string title, int number)
 	orders.UpdateOrder(title, number);
 }
 
+void Customer::CancelOrder(string title)
+{
+	orders.CancelOrder(title);
+}
 
+string Customer::getCustomerName()
+{
+	return name;
+}
+
+string Customer::getAddress()
+{
+	return address;
+}
+
+string Customer::getEmail()
+{
+	return email;
+}
+
+double Customer::checkoutOrders()
+{
+
+}
+
+bool Customer::operator==(const Customer& customer) const
+{
+	return (name == customer.name && address == customer.address
+		&& email == customer.email);
+}
+
+bool Customer::operator!=(const Customer& customer) const
+{
+	return (name != customer.name || address != customer.address
+		|| email != customer.email);
+}
