@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GroupProject",
+    "\\GroupProject\\GroupProject"
   ],
+  "SelectedNode": "\\GroupProject\\GroupProject\\CustomerList.cpp",
   "PreviewInSolutionExplorer": false
 }
