@@ -59,7 +59,7 @@ string Customer::getEmail()
 
 double Customer::checkoutOrders()
 {
-	double = total
+	double total;
 	return total = orders.calculateSubtotal();
 }
 
