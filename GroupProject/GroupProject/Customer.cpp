@@ -36,6 +36,10 @@ void Customer::UpdateOrders(string title, int number)
 	orders.UpdateOrder(title, number);
 }
 
+string Customer::getCustomerName()
+{
+	return name;
+}
 
 string Customer::getAddress()
 {
