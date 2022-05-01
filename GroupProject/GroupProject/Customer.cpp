@@ -59,7 +59,8 @@ string Customer::getEmail()
 
 double Customer::checkoutOrders()
 {
-
+	double = total
+	return total = orders.calculateSubtotal();
 }
 
 bool Customer::operator==(const Customer& customer) const
