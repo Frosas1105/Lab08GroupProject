@@ -65,8 +65,8 @@ bool Order::operator==(const Order& order) const
 bool Order::operator!=(const Order& order) const
 {
 	return (bookTitle != order.bookTitle || 
-		unitPrice == order.unitPrice || 
-		number == order.number);
+		unitPrice != order.unitPrice || 
+		number != order.number);
 }
 
 
