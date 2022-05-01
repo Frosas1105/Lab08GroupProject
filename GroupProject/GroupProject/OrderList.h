@@ -1,10 +1,9 @@
-////////////////////////////////////////////////////////////////////
-// Date: 5/01/2022
-// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
-// File: OrderList.h
-// Purpose: Declaring all data members and member functions for the class OrderList.
-////////////////////////////////////////////////////////////////////
+#ifndef OrderList_H
+#define OrderList_H
 #pragma once
+#include <iostream>
+#include <cstdbool>
+#include <fstream>
 #include "linkedList.h"
 #include "Order.h"
 
@@ -21,4 +20,6 @@ public:
 private:
 	void SearchOrderList(string title, bool& found, nodeType<Order>*& current) const;
 };
+#endif
+
 
