@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// Date: 5/1/2022 
+// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
+// File: Order.cpp
+// Purpose: File containing the function definitions for the Order Class. 
+////////////////////////////////////////////////////////////////////
 #include "Order.h"
 
 ostream& operator<<(ostream& out, const Order& order)

@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// Date: 5/1/2022 
+// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
+// File: CustomerList.cpp
+// Purpose: File containing the function definitions for the CustomerList Class. 
+////////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <cstdlib>
 #include <string>

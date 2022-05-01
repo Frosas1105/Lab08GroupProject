@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// Date: 5/1/2022 
+// By: Brandon Biggs, David Utshudiema, and Fabian Rosas
+// File: Customer.cpp
+// Purpose: File containing the function definitions for the Customer Class. 
+////////////////////////////////////////////////////////////////////
 #include "Customer.h"
 
 ostream& operator<<(ostream& out, const Customer& customer)
