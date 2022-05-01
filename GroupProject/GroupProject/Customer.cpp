@@ -60,7 +60,7 @@ string Customer::getEmail()
 double Customer::checkoutOrders()
 {
 	double total;
-	return total = orders.calculateSubtotal();
+	return total = orders.CalculateSubtotal();
 }
 
 bool Customer::operator==(const Customer& customer) const
